@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get update
+sudo apt update
 pip install "dask[complete]" --no-cache-dir
 pip install aws
 sudo apt install awscli -y
