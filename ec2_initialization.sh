@@ -2,7 +2,6 @@
 sudo apt update
 sudo apt install python3-pip -y
 pip install "dask[complete]" --no-cache-dir
-pip install aws
 sudo apt install awscli -y
 export AWS_ACCESS_KEY_ID=ASIAV34ILZ5DBGUW4NHE
 export AWS_SECRET_ACCESS_KEY=T2fM2JF+nXVrH/NYrBULuzTkzO9rDGDlVHGGKtFd
