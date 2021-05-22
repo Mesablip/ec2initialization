@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get update
 pip install "dask[complete]" --no-cache-dir
 pip install aws
