@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt update
+sudo apt install python3-pip
 pip install "dask[complete]" --no-cache-dir
 pip install aws
 sudo apt install awscli -y
