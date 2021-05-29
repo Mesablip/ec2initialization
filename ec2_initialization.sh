@@ -2,6 +2,8 @@
 sudo apt update
 sudo apt install python3-pip -y
 pip install "dask[complete]" --no-cache-dir
+pip install pyarrow
+pip install dask-ml
 sudo apt install awscli -y
 export AWS_ACCESS_KEY_ID=ASIAV34ILZ5DATJIZ6U7
 export AWS_SECRET_ACCESS_KEY=jvo2qw8AxgTjlehrSH2yh1WTt4arJqwJX1T1OKlt
